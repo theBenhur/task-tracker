@@ -7,8 +7,8 @@ const opts = {
     'delete': (id) => deleteTodo(id),
     'list': (args) => listTodo(args),
     'update': (arguments) => updateTodo(arguments),
-    'mark-in-progress':(args)=>markStatus(args,0),
-    'mark-done':(args)=>markStatus(args,1),
+    'mark-in-progress': (args) => markStatus(args, 0),
+    'mark-done': (args) => markStatus(args, 1),
 }
 
 if (opts.hasOwnProperty(action)) {
