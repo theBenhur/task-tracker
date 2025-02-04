@@ -11,12 +11,14 @@ function addTodo(description) {
     if (!checkArgumentsCount(1, arguments)) return
     [todoDescription,] = description
     let tasks = getDataFromFile()
-    nextId = tasks.tasks.length
+    nextId = tasks.tasks.length === 0
+      ? 1 
+      : tasks.tasks.length 
     while (tasks.tasks.filter(t => t.id === nextId).length) { nextId++ }
     tasks.tasks.push({
         "id": nextId,
         "description": todoDescription,
-        "status": "todo",
+        "status": "in-progress",
         "createdAt": new Date().toUTCString().split('T')[0],
         "updatedAt": undefined
     })
