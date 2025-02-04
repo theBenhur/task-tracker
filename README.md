@@ -19,23 +19,23 @@ Clone this repository and then (on the project folder) type to anable this tool 
 `npm install -g .`
 
 ## Example of use
-`>> task-cli add "Create a simple CLI tool"`
+`>> ttcli add "Create a simple CLI tool"`
 
-`>> task-cli update 1 "Create a COOL simple CLI tool`
+`>> ttcli update 1 "Create a COOL simple CLI tool`
 
-`>> task-cli delete 1`
+`>> ttcli delete 1`
 
-`>> task-cli mark-in-progress 1`
+`>> ttcli mark-in-progress 1`
 
-`>> task-cli mark-done 1`
+`>> ttcli mark-done 1`
 
-`>> task-cli list`
+`>> ttcli list`
 
-`>> task-cli list done`
+`>> ttcli list done`
 
-`>> task-cli list todo`
+`>> ttcli list todo`
 
-`>> task-cli list in-progress`
+`>> ttcli list in-progress`
 
 <hr/>
 
