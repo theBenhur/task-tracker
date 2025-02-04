@@ -15,20 +15,26 @@ This tool is able to do:
 ## Usage
 
 Clone this repository and then (on the project folder) type to anable this tool globally:
-`>> npm install -g .`
+
+`npm install -g .`
 
 ## Example of use
 `>> task-cli add "Create a simple CLI tool"`
+
 `>> task-cli update 1 "Create a COOL simple CLI tool`
+
 `>> task-cli delete 1`
 
 `>> task-cli mark-in-progress 1`
+
 `>> task-cli mark-done 1`
 
 `>> task-cli list`
 
 `>> task-cli list done`
+
 `>> task-cli list todo`
+
 `>> task-cli list in-progress`
 
 <hr/>
